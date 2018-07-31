@@ -17,3 +17,7 @@ https://becominghuman.ai/tensorflow-object-detection-api-tutorial-training-and-e
 
 python generate_tfrecord.py --csv_input=data/train.csv  --output_path=data/train.record
 
+### Preparing data
+
+1. download and put training / testing data into depth-train/data 
+2. 
