@@ -1,0 +1,4 @@
+# big h5 files
+data/*.h5
+# generated tf record files
+data/*.record
