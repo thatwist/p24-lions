@@ -105,6 +105,3 @@ venv.bak/
 
 # train/test images
 images/
-# big h5 files
-depth-train/data/*.h5
-depth-train/data/*.record
