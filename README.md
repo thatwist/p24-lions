@@ -9,7 +9,7 @@ Software / Stack
  * Google Collab integration
  
 ## Training on depth labels
-https://becominghuman.ai/tensorflow-object-detection-api-tutorial-training-and-evaluating-custom-object-detector-ed2594afcf73
+[Tutorial](https://becominghuman.ai/tensorflow-object-detection-api-tutorial-training-and-evaluating-custom-object-detector-ed2594afcf73)
 
 * Dataset - https://www.albert.cm/projects/viewpoint_3d_pose/
 
@@ -24,10 +24,15 @@ python generate_tfrecord.py --csv_input=data/train.csv  --output_path=data/train
 
 ### Run training 
 
-python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_coco.config
+``` bash
+python legacy/train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_coco.config
+```
 
 ### Run eval
-python eval.py --logtostderr --pipeline_config_path=training/ssd_mobilenet_v1_coco.config --checkpoint_dir=training/ --eval_dir=eval/
+
+``` bash
+python legacy/eval.py --logtostderr --pipeline_config_path=training/ssd_mobilenet_v1_coco.config --checkpoint_dir=training/ --eval_dir=eval/
+```
 
 ## Python
 
