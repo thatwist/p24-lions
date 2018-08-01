@@ -29,6 +29,10 @@ FLAGS = flags.FLAGS
 def class_text_to_int(row_label):
     if row_label == 'head':
         return 1
+    elif row_label == 'shoulder1':
+        return 2
+    elif row_label == 'shoulder2':
+        return 3
     else:
         None
 
