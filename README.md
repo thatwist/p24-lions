@@ -2,14 +2,26 @@
 
 [Link to Trello board](https://trello.com/b/FtCbqxlQ/p24-lions)
 
-Software / Stack
+## Software / Stack
 
  * Python3
  * OpenCV 3.4
- * Google Collab integration
+ * GCP with GPUs
  
-## Training on depth labels
+## Dataset
+
+ 1. https://www.albert.cm/projects/viewpoint_3d_pose/
+ 2. http://vrai.dii.univpm.it/re-id-dataset
+ 3. https://www.albert.cm/projects/ram_person_id/
+ 
+## Presentation
+
+https://docs.google.com/presentation/d/14u4VbT3fY137V4mZnPOO8NkiWFpT-450tGD39dheFoE/edit?usp=sharing
+ 
+## Tensorflow Object Detection API
 [Tutorial](https://becominghuman.ai/tensorflow-object-detection-api-tutorial-training-and-evaluating-custom-object-detector-ed2594afcf73)
+
+[Installation](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
 
 * Dataset - https://www.albert.cm/projects/viewpoint_3d_pose/
 
@@ -58,3 +70,5 @@ export LC_ALL="en_US.UTF-8"
 export LC_CTYPE="en_US.UTF-8"
 sudo dpkg-reconfigure locales
 ```
+
+###
