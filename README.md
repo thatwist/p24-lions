@@ -14,6 +14,11 @@
  2. http://vrai.dii.univpm.it/re-id-dataset
  3. https://www.albert.cm/projects/ram_person_id/
  
+ dataset/ - cut heads dataset
+ 
+## Final pipeline
+final-take2/
+ 
 ## Presentation
 
 https://docs.google.com/presentation/d/14u4VbT3fY137V4mZnPOO8NkiWFpT-450tGD39dheFoE/edit?usp=sharing
